@@ -1,0 +1,12 @@
+.review {
+    text-align: left;
+    border: 2px solid chartreuse;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.review p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}

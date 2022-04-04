@@ -1,12 +1,14 @@
 import React from 'react';
+import './Review.css'
 
 const Review = ({ review }) => {
-    const { name, userReview, rating } = review;
+    const { name, userReview, rating, picture } = review;
     return (
-        <div>
+        <div className='review'>
+            <img src={picture} alt="" />
             <h4>{name}</h4>
             <p>{userReview}</p>
-            <p><small>Rating: {rating}/5</small></p>
+            <h5><small>Rating: {rating}/5</small></h5>
         </div>
     );
 };
