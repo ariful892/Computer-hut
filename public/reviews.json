@@ -2,36 +2,42 @@
     {
         "id": "624aacedb5c0a4b4c3125a47",
         "name": "Mcgee Mosley",
+        "userReview": "If you're a macOS fan who primarily uses a laptop to write and browse the web, the 2020 Apple MacBook Air's redesigned keyboard and lower price make it easy to recommend.",
         "rating": 4.7,
         "picture": "http://placehold.it/32x32"
     },
     {
         "id": "624aaced00c529bf4a18cbc9",
         "name": "Griffin Cochran",
+        "userReview": "With a larger display, a beefier graphics chip, and (vitally and finally!) an improved keyboard, Apple's 16-inch MacBook Pro is a beyond-capable big-screen powerhouse built for creatives.",
         "rating": 2.6,
         "picture": "http://placehold.it/32x32"
     },
     {
         "id": "624aacedb7a50b39464877d1",
         "name": "Buchanan Torres",
+        "userReview": "The 13-inch MacBook Pro is Apple's best ultraportable laptop, thanks to stylish looks, an excellent touchpad, and long battery life.",
         "rating": 3,
         "picture": "http://placehold.it/32x32"
     },
     {
         "id": "624aaced50c178281a4625d1",
         "name": "Long Hogan",
+        "userReview": "The 2019 edition of Apple's MacBook Air is cheaper and has a slightly richer feature set than its solid predecessor, making it a decent ultraportable for buyers who won't perform many resource-intensive computing tasks.",
         "rating": 2.1,
         "picture": "http://placehold.it/32x32"
     },
     {
         "id": "624aacedb4af3fefd830f27b",
         "name": "Yang Dodson",
+        "userReview": "Though no speedster, the refreshed MacBook Air finally gets a Retina Display and updated components, making it a sleek ultraportable laptop worthy of its pioneering predecessor's name.",
         "rating": 5,
         "picture": "http://placehold.it/32x32"
     },
     {
         "id": "624aaced5af62baab70f312c",
         "name": "Logan Nunez",
+        "userReview": "With the addition of an Intel Core i9 processor, the sleek 15-inch MacBook Pro is now one of the most powerful desktop-replacement laptops you can buy, making it an excellent choice for well-heeled, on-the-go creative pros.",
         "rating": 2.8,
         "picture": "http://placehold.it/32x32"
     }

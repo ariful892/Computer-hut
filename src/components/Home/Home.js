@@ -12,7 +12,7 @@ const Home = () => {
 
     const slicedReviews = [...reviews.slice(0, 3)];
 
-    console.log(reviews);
+    console.log(slicedReviews);
 
     return (
         <div className='home'>
@@ -28,9 +28,9 @@ const Home = () => {
                 </div>
             </div>
             <div className="product-review">
-                <h2 >Customer Reviews: {reviews.length}</h2>
+                <h2 >Customer Reviews: {slicedReviews.length}</h2>
                 {
-                    reviews.map(review => <Review
+                    slicedReviews.map(review => <Review
                         key={review.id}
                         review={review}
                     ></Review>)
