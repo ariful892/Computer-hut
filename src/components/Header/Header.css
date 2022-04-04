@@ -1,0 +1,10 @@
+.routes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.routes .route {
+    margin-right: 20px;
+}
