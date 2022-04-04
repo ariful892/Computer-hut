@@ -1,16 +1,19 @@
-import React, { useEffect, useState } from 'react';
+
+import { Link } from 'react-router-dom';
 import img from '../../images/image1.jpg'
+import useReviews from '../hooks/useReviews';
+import Review from '../Review/Review';
+
 import './Home.css'
 
 const Home = () => {
 
-    const [reviews, setReviews] = useState([]);
+    const [reviews, setReviews] = useReviews();
 
-    useEffect(() => {
-        fetch('reviews.json')
-            .then(res => res.json())
-            .then(data => setReviews(data));
-    }, []);
+    const slicedReviews = [...reviews.slice(0, 3)];
+
+    console.log(reviews);
+
     return (
         <div className='home'>
             <div className="product-container">
@@ -26,7 +29,13 @@ const Home = () => {
             </div>
             <div className="product-review">
                 <h2 >Customer Reviews: {reviews.length}</h2>
-                <button className='btn'>See all reviews</button>
+                {
+                    reviews.map(review => <Review
+                        key={review.id}
+                        review={review}
+                    ></Review>)
+                }
+                <Link to="/reviews"><button className='btn'>See all reviews</button></Link>
             </div>
 
         </div>
