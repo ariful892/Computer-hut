@@ -1,10 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import img from '../../images/image1.jpg'
+import './Home.css'
 
 const Home = () => {
+
+    const [reviews, setReviews] = useState([]);
+
+    useEffect(() => {
+        fetch('reviews.json')
+            .then(res => res.json())
+            .then(data => setReviews(data));
+    }, []);
     return (
-        <div>
-            <h1>Computer Hut</h1>
-            <h2>Choose Your Laptop</h2>
+        <div className='home'>
+            <div className="product-container">
+                <div className="title">
+                    <h1 className='title1'>Computer Hut</h1>
+                    <h2 className='title2'>Choose Your Laptop</h2>
+                    <p className='product-details'>Laptops are compact enough to carry with you, yet versatile enough to run demanding applications. Notebooks are the best tool for doing serious work or play whether you're at home, on the road or in a college classroom. For those reasons, we've compiled lists of the best business laptops and best college laptops, not to mention our best laptops rankings for most users. </p>
+                    <button className='btn'>Live Demo</button>
+                </div>
+                <div className="product-img">
+                    <img src={img} alt="" />
+                </div>
+            </div>
+            <div className="product-review">
+                <h2 >Customer Reviews: {reviews.length}</h2>
+                <button className='btn'>See all reviews</button>
+            </div>
+
         </div>
     );
 };

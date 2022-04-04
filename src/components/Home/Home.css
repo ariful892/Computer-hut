@@ -1,0 +1,44 @@
+.product-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.title {
+    margin-left: 80px;
+}
+
+.title1 {
+    font-size: 55px;
+    margin-bottom: 0;
+    color: chartreuse;
+}
+
+.title2 {
+    margin-top: 10px;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.product-details {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: rgb(14, 124, 14);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    color: rgb(14, 124, 14);
+    background-color: white;
+    border: 1px solid rgb(14, 124, 14);
+
+}
+
+.product-img {
+    margin-left: 50px;
+    margin-top: 50px;
+}
