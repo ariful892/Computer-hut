@@ -23,15 +23,15 @@
     margin-top: 10px;
 }
 
-.btn {
+.button {
     background-color: rgb(14, 124, 14);
     color: white;
     border: none;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 7px;
 }
 
-.btn:hover {
+.button:hover {
     color: rgb(14, 124, 14);
     background-color: white;
     border: 1px solid rgb(14, 124, 14);
@@ -54,4 +54,25 @@
     background-color: rgb(227, 248, 206);
     padding: 10px 0;
     border-radius: 10px;
+    color: rgb(7, 124, 13);
+}
+
+
+@media only screen and (max-width:692px) {
+    .product-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .title {
+        margin: 15px;
+    }
+
+    .product-img {
+        margin-left: 100px;
+    }
+
+    .product-review {
+        margin: 50px;
+    }
 }

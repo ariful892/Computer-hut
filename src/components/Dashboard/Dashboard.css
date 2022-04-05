@@ -10,3 +10,9 @@
     padding-bottom: 20px;
     color: rgb(92, 170, 13);
 }
+
+@media only screen and (max-width:692px) {
+    .rechart {
+        grid-template-columns: 1fr;
+    }
+}

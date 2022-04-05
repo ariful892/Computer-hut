@@ -10,3 +10,9 @@
 .routes .route {
     margin-right: 50px;
 }
+
+@media only screen and (max-width:692px) {
+    .routes .route {
+        margin-right: 20px;
+    }
+}
