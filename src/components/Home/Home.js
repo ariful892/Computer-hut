@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="product-review">
-                <h2 >Customer Reviews: {slicedReviews.length}</h2>
+                <h2 className='review-title'>Customer Reviews: {slicedReviews.length}</h2>
                 {
                     slicedReviews.map(review => <Review
                         key={review.id}

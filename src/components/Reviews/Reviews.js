@@ -7,6 +7,7 @@ const Reviews = () => {
 
     return (
         <div className='product-review'>
+            <h2 className='review-title'>User's Review</h2>
             {
                 reviews.map(review => <Review
                     key={review.id}

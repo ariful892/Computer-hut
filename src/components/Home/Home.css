@@ -27,7 +27,7 @@
     background-color: rgb(14, 124, 14);
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 8px 20px;
     border-radius: 7px;
 }
 
@@ -35,7 +35,6 @@
     color: rgb(14, 124, 14);
     background-color: white;
     border: 1px solid rgb(14, 124, 14);
-
 }
 
 .product-img {
@@ -44,6 +43,15 @@
 }
 
 .product-review {
-    margin: 150px;
+    margin: 120px;
     text-align: center;
+}
+
+.review-title {
+    margin: 10px auto;
+    width: 70%;
+    font-size: 28px;
+    background-color: rgb(227, 248, 206);
+    padding: 10px 0;
+    border-radius: 10px;
 }

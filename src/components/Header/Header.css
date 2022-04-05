@@ -1,11 +1,12 @@
 .routes {
+    background-color: rgb(227, 248, 206);
     display: flex;
     justify-content: center;
-    margin-top: 50px;
     margin-bottom: 80px;
     font-weight: 500;
+    padding: 30px 0;
 }
 
 .routes .route {
-    margin-right: 30px;
+    margin-right: 50px;
 }
