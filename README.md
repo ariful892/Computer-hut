@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Computer Hut
+
+## The website live link (https://computer-hut-ariful892.netlify.app/
+)
+
+- It a single page application.
+- There are 5 routes in this application.
+- In Home section I added the introductory part of the website.
+- In reviews route I kept the user reviews.
+- In Dashboard I kept different types of rechart based on some data.
+- In about route I gave some info about the site.
+- And also I added a not found route .
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
